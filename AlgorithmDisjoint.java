@@ -1,3 +1,7 @@
+/**
+ * Author: Jiaying Wu
+ * Created at March 22, 2020
+ */
 public class AlgorithmDisjoint {
 
     public boolean disjointOrNot(int listA[], int listB[]){
@@ -19,7 +23,6 @@ public class AlgorithmDisjoint {
         boolean result1 = disointCheck.disjointOrNot(listA, listB);
         System.out.println("Disjoint( [3, 2, 5], [1, 4, 6] ) ==> " + result1);
     
-
         int listC[] = {3, 2, 5};
         int listD[] = {1, 2, 3};
         boolean result2 = disointCheck.disjointOrNot(listC, listD);
